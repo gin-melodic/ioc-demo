@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>defaultEnv</key>
+	<string>prod</string>
+	<key>baseURL</key>
+	<string>https://api.bff.cyou</string>
+	<key>services</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>login</string>
+			<key>path</key>
+			<string>/login</string>
+			<key>description</key>
+			<string>login</string>
+			<key>bypass</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logout</string>
+			<key>path</key>
+			<string>/logout</string>
+			<key>description</key>
+			<string>logout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

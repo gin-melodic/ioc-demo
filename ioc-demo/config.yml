@@ -1,0 +1,4 @@
+baseURL: https://api.bff.cyou
+services:
+    - { name: login, path: /login, description: login, bypass: true }
+    - { name: logout, path: /logout, description: logout }
